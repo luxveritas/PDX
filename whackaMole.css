@@ -1,0 +1,13 @@
+body {
+    background-image: url("dirt1.jpg");
+}
+​
+.moleHole {
+    width: 150px;
+    height: 135px;
+    border-radius: 30pt;
+}
+​
+.moleRow {
+    display: flex;
+}

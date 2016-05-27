@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Food Survey</title>
+</head>
+    <form>
+        <h1>This is my survey</h1>
+            <form action="index.php" name="my form" method="post">
+            <div>
+            First name: <input type="text" name="firstname"><br>
+            Last name: <input type="text" name="lastname">
+            </div>
+            </div>
+            <div>In a single sentence, please describe what you had for dinner last night:<br>
+            <dinner rows="1" cols="50"></dinner>
+            </div>
+            <div>
+            Are you vegetarian?<br>
+            <input type="radio" name="veg" value="yes">yes
+            <input type="radio" name="veg" value="no">no
+            </div>
+            <div>
+            Are you hungry?<br>
+            <input type="radio" name="hungry" value="yes">yes
+            <input type="radio" name="hungry" value="no">no
+            </div>
+            <div>
+            Do you like:<br>
+            <input type="checkbox" name="meat" value="meat">meat<br>
+            <input type="checkbox" name="potatoes" value="potatoes">potatoes<br>
+            <input type="checkbox" name="broccoli" value="broccoli">broccoli<br>
+            <input type="checkbox" name="cheese" value="cheese">cheese<br>
+            </div>
+            <div>
+            What is your favorite ice cream flavor?<br>
+            <select name="favorite">
+            <option value="chocolate" selected="selected">chocolate</option>
+            <option value="vanilla" selected="selected">vanilla</option>
+            <option value="pistachio" selected="selected">pistachio</option>
+            <option value="bubble gum" selected="selected">bubble gum</option>
+            </select>
+            </div>
+            <div>What is your most memorable dinner ever?<br>
+            <textarea rows="5" cols="30"></textarea>
+            </div>
+            </form>
+            <input type="submit" value="submit your survey"/>
+    </form>
+    </body>
+</html>
