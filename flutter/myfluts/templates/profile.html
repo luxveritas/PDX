@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="row clearfix">
+    <div class="col-md-12 column">
+        {% for flut in fluts %}
+        <div class="well">
+            <span>{{ flut.text }}</span>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+{% endblock %}
